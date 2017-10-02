@@ -1,3 +1,4 @@
-age = int(input('What is your age?'))
+name = input('Hi! What is your friend?\n')
+age = int(input('What is your age?\n'))
 
-print("You have {} years until the 100 year old".format(100 - age))
+print("Hello {}. You have {} years until the 100 year old.".format(name, (100 - age)))
