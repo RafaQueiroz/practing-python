@@ -14,7 +14,6 @@ def main():
 
     equals = []
     
-
     for i in range_one:
         for j in range_two:
             if i == j and i not in equals:
