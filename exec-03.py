@@ -15,7 +15,7 @@ def main():
     input_filter = get_user_number()
     lesser_list = get_lesser_list(input_filter)
 
-    if(len(lesser_list) > 0 ):
+    if len(lesser_list) > 0 :
         print('lesser than {} list: {} \n'.format(input_filter, lesser_list))
     else:
         print('Ops! It seems that there is no number lesser than {}'.format(input_filter))
